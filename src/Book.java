@@ -10,6 +10,13 @@ public class Book {
         this.price = price;
         this.pages = pages;
     }
+    public Book(String title, String author, int price) {
+        this.title = title;
+        this.author = author;
+        this.price = price;
+
+    }
+
     void displayInfo() {
         System.out.println("Book: " + title);
         System.out.println("Author: " + author);
