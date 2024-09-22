@@ -32,6 +32,7 @@ public class Book {
         System.out.println("Pages: " + pages);
         System.out.println("--------------");
     }
+
     void discountPrice(int discount) {
         if (discount > 0 && discount < price) {
             price -= discount;
